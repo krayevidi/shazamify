@@ -207,7 +207,7 @@ class SpotifyPlaylist:
 def main():
     library = ShazamLibrary()
     playlist = SpotifyPlaylist()
-    playlist.import_from_shazam()
+    playlist.import_from_shazam(library)
 
 
 if __name__ == '__main__':
